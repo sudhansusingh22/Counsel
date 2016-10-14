@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Counsel' do
+	pod 'MZDayPicker'
+	pod 'Crashlytics'
+    pod 'Firebase'
+    pod 'Firebase/Database'
+	pod 'Flurry-iOS-SDK'
+    pod 'Firebase/Core'
+    pod 'IGLDropDownMenu'
+    pod 'RMDateSelectionViewController', '~> 2.0.3'
+end

@@ -1,0 +1,1465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C104C5443D5DDD40F7D91CC081BA81 /* RMActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB10D041D11E514D51EA16C88C539E3 /* RMActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11DE4F2986BD9AED729A57E4159A2F66 /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BE204E9AFA49D77AC46C4495BF6C87BB /* IGLDropDownMenu.m */; };
+		17EF6B11283FF491142E4A0C6695A6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */; };
+		1CF48C106D94AA3487A71EC47ED42E13 /* MZDayPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B58E470E4460372C25FDB0F8F9913 /* MZDayPicker-dummy.m */; };
+		2D21F9462C9B91F99C360DE02A7AF900 /* MZDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DD2A365FCC84510EC7FBF2A2069E35 /* MZDay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2FE70DC6FBD7A013DB18E5B5371F231F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */; };
+		33EE7A3D9CB508311E854666750D681D /* Flurry-iOS-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D17EB750B93BC4869030046C46A05B /* Flurry-iOS-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492884CFF4025EA26FD76E3467132B1D /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EE6F037393AA3E1BC07C7C6553F3FC /* RMActionController.m */; };
+		4B8202738DF04DA596BBB2342C06EA5B /* IGLDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F9F562366ED12CE770CE0FE890C4B2 /* IGLDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0F5034CBCBBC1514D3FE59CBE55D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */; };
+		5DF578646D29F130F2356D1A47D57630 /* Pods-Counsel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D86419BDB76BF6C2B121DF4C31C86264 /* Pods-Counsel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688123264A2372A997A8E932A1E36A76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16033FEA4164F7BDD41617A5F1930C0 /* SystemConfiguration.framework */; };
+		6A05E28EFEA31E4D8F3F0B637B575132 /* MZDayPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E5343AE829E0B0E6FE3800E35F38B458 /* MZDayPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E52DF947B848513910A1D5D56F01027 /* IGLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC5971B85BF9A74DCE86C31F593F6B7 /* IGLDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C28E7C5C5EA0AEB8EBA82E3B26BBED /* MZDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D8311F3B21CAD4A31C2E4E224E4704AD /* MZDayPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74A06F86BF411A3467BDAFD2195CD323 /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E0EAA26574A249E5B6B27501420905 /* RMDateSelectionViewController.m */; };
+		7AC43F806C73AE8933C8F122D822C490 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EA67FA5A26E354651C50EFA07D14E8 /* QuartzCore.framework */; };
+		7D8C56AE73395EBE65258F3B381A6EB3 /* MZDayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71610910C2436A84BD61307CAEE07838 /* MZDayPickerCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E2D76A7F8728B60C65B414B9636FF70 /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = F91D21B1B1554B3654BC4C731F27450D /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE77CA73FAF6310EC063D6334D7EEE7 /* RMDateSelectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F4940FFBACB39851D2BB4E51C4982 /* RMDateSelectionViewController-dummy.m */; };
+		8178CD94DBB7201552960F7255D34921 /* Pods-Counsel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52192B68525C8F8DB533CA8B4FD4956A /* Pods-Counsel-dummy.m */; };
+		88EA74482C440596B4ECBB38C9A8A799 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EA67FA5A26E354651C50EFA07D14E8 /* QuartzCore.framework */; };
+		8F068D59AB3A8B48DF1947A952D5A298 /* IGLDropDownItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD112FC2E9DE7C27E03FAD9FF227B27 /* IGLDropDownItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C63DAD099DD1F653B71AE03C0720AB3 /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 192417F499FD89BC8644235B3A0F66D6 /* IGLDropDownItem.m */; };
+		A0787562AD3801561E84DA948994FA15 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEC5C7D781A1FE463A4B9151306D666 /* Security.framework */; };
+		A5DE50F56CB287DC42056F7EEDF378C4 /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2563C805F83FE5EF4A2D39930979F4A /* RMActionController.framework */; };
+		B341D3CA5E39CBC425C3F02DD894586D /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEFDE30A7EBE3CFE3E16295779DE6EE /* RMActionController-dummy.m */; };
+		BA075FF1A8B9CC412C5C7D635D663686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38329C00229341FC54BD6FA2D9AB05A /* UIKit.framework */; };
+		CE70C3A5E94C5B0535E4A3F456495EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */; };
+		D69025DC29F7A3F6AB9BBF58A7201F26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38329C00229341FC54BD6FA2D9AB05A /* UIKit.framework */; };
+		DA00C77303310FAF46CD8CF816712E6B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = DC435863E2E5E18BD9F3314A2DDB36FF /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA482B41F08BCC62329BD4F0E62B0EA6 /* MZDayPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95175D219761F6483156599A979B3177 /* MZDayPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E053C819E11D80615F98689AF7AEA4E7 /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FC3165CB9DA0B44B5BA437EC6A62D /* Flurry-iOS-SDK-dummy.m */; };
+		E7115F8573F8881CE26603076B246F57 /* RMDateSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F45D24FD378AEBE064F854B4619C0A /* RMDateSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB06035B1A2B1AED9B3531F89BC2999E /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E91F4F35754603AC049B8F12D5B76 /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED05D914CCD39E32AEF263030F441702 /* MZDayPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6947C710D4D7D07D3127717C53E41129 /* MZDayPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE7EA80B7347E90432D004A8B2A821F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C746FBCDEDBE93E1606B5BF52E0DCFC /* CoreGraphics.framework */; };
+		F144FD1554BECCE14CE8464AE2FB349F /* RMDateSelectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CAD7A5BF883934735D72D565D0DB6E /* RMDateSelectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F43690E28D5BD8C8ED356BDC0E758B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */; };
+		F4F40FA5A473271E12127E0DF2A63881 /* IGLDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CD47BA7C3DD11F5DABD206C25C558 /* IGLDropDownMenu-dummy.m */; };
+		F7850D2361B3F0A74E83D0E7451B9730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */; };
+		F8F13A5313AD40A1142917BB06A34591 /* MZDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 329D1B4C472D26079F3293B3ECB32C37 /* MZDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06F20D5F105791D6811BAF3684DBA738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B959BAFF7EA1E2090E63F2F810390095;
+			remoteInfo = MZDayPicker;
+		};
+		0D7B26CA4EA91FECDC93C12AEBFDE87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A1EF937A2807AE3794247568B1C8497;
+			remoteInfo = RMActionController;
+		};
+		2148FAEDE77CFAAA23525DF6F1C53B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63032474C4AB56D648B39982530DFD55;
+			remoteInfo = "Flurry-iOS-SDK";
+		};
+		47862A758D9242956E22179ECE16EDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10012608256619B918DD9CFCD92E69BC;
+			remoteInfo = RMDateSelectionViewController;
+		};
+		A47002754C8FCC86688E2E6C146E4A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A1EF937A2807AE3794247568B1C8497;
+			remoteInfo = RMActionController;
+		};
+		CF821A536A436AAE84BABA36014C30DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D38700903AE3E9C8224AE34BD3B2DC6;
+			remoteInfo = IGLDropDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0255DFDFC29E65D93B7351075C3D687A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		058B3C4C7BC08EA6671CDA1FC7C9BD94 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		0AC5971B85BF9A74DCE86C31F593F6B7 /* IGLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGLDropDownMenu.h; path = IGLDropDownMenu/IGLDropDownMenu.h; sourceTree = "<group>"; };
+		0B3BE84FCE37F910808B58DAD9062256 /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		0FFF8BF917B7E46985AC09204D1B4ABA /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		192417F499FD89BC8644235B3A0F66D6 /* IGLDropDownItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGLDropDownItem.m; path = IGLDropDownMenu/IGLDropDownItem.m; sourceTree = "<group>"; };
+		1BAECB1B62E2BDB4F6CC4678A81C74F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C036CDBF8239333AF05758E12D8BD60 /* Pods-Counsel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Counsel-frameworks.sh"; sourceTree = "<group>"; };
+		1C5E91F4F35754603AC049B8F12D5B76 /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
+		1F4A74C7B5A6839C5FF5FFD3E23CF2D4 /* Pods-Counsel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Counsel.release.xcconfig"; sourceTree = "<group>"; };
+		210B58E470E4460372C25FDB0F8F9913 /* MZDayPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZDayPicker-dummy.m"; sourceTree = "<group>"; };
+		2172F6277791EFF05F122CA0A81E0CAD /* MZDayPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZDayPicker.modulemap; sourceTree = "<group>"; };
+		22B042D616158A5C4FF8438BBA288F4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292C7B905837C762CC651A8A76F729A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B29C8884E692E56EA846A23ED173A25 /* IGLDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGLDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325E4188C06A2FF3A2B741382C31C836 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		329D1B4C472D26079F3293B3ECB32C37 /* MZDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZDay.h; path = MZDayPicker/MZDay.h; sourceTree = "<group>"; };
+		3C746FBCDEDBE93E1606B5BF52E0DCFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		40EE6F037393AA3E1BC07C7C6553F3FC /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
+		4775025E1A02E2F75A78A6849FF6FFD9 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		4D42634BEBB95EBF5A60C033B504A81F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EC49CF540E5C37214403EFC617F651 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		52192B68525C8F8DB533CA8B4FD4956A /* Pods-Counsel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Counsel-dummy.m"; sourceTree = "<group>"; };
+		521CD47BA7C3DD11F5DABD206C25C558 /* IGLDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGLDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		55C6BD13B1EE110C18C28ACEF78BE4FC /* RMActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMActionController.modulemap; sourceTree = "<group>"; };
+		57DD2A365FCC84510EC7FBF2A2069E35 /* MZDay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZDay.m; path = MZDayPicker/MZDay.m; sourceTree = "<group>"; };
+		59DB8CF839CBFBF0CEC61B1D1B261975 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		5A6D3AC96E9E07E76D28A3832CA4F6D4 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		5BB94CCE78F34AA423EB774C6F1A18DD /* MZDayPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZDayPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9DCA245001B25198DFEBD69545EFFD /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		5D794010EF57B8EB5987CABAE9297073 /* RMDateSelectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-prefix.pch"; sourceTree = "<group>"; };
+		5F6FC3165CB9DA0B44B5BA437EC6A62D /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		6219595CFC263EDBFAF4B974B1CC03BB /* libFlurry_7.6.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.6.6.a; path = Flurry/libFlurry_7.6.6.a; sourceTree = "<group>"; };
+		690EADEDB7084F951023678E7D9D19D9 /* Pods-Counsel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Counsel-acknowledgements.plist"; sourceTree = "<group>"; };
+		6947C710D4D7D07D3127717C53E41129 /* MZDayPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZDayPickerCell.h; path = MZDayPicker/MZDayPickerCell.h; sourceTree = "<group>"; };
+		71610910C2436A84BD61307CAEE07838 /* MZDayPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZDayPickerCell.m; path = MZDayPicker/MZDayPickerCell.m; sourceTree = "<group>"; };
+		72AABE4F264C6E32684EC30DCB6CDB8D /* IGLDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGLDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		7427B7E8C3C93B0DCEB2542D7CD3532D /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		77638DCF31F2D83954CD3F1FAD054660 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A96DC47F8AF653767A435BC999E3B9E /* Pods-Counsel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Counsel.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1F2F71EDEA1727B19A14ECFA3ED754 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		7DC8508EBDC891ECBCC27E9D3A985240 /* MZDayPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZDayPicker-prefix.pch"; sourceTree = "<group>"; };
+		7F8104E99D9202745336793FF909B9D3 /* Pods-Counsel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Counsel-resources.sh"; sourceTree = "<group>"; };
+		82EA67FA5A26E354651C50EFA07D14E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		85773D5876B15E15F7EEE7D26C34228F /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		8BD112FC2E9DE7C27E03FAD9FF227B27 /* IGLDropDownItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGLDropDownItem.h; path = IGLDropDownMenu/IGLDropDownItem.h; sourceTree = "<group>"; };
+		8E7A285F934D4BA6C1F95A00313E832F /* Pods-Counsel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Counsel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		903245EC29848C4E69AF7FB8FCAC585F /* RMDateSelectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMDateSelectionViewController.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95175D219761F6483156599A979B3177 /* MZDayPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZDayPicker-umbrella.h"; sourceTree = "<group>"; };
+		9B8EEE7BDF9B09331FBE841202AB408D /* IGLDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IGLDropDownMenu.modulemap; sourceTree = "<group>"; };
+		9D339E6D2F77178C152939231E0F400F /* IGLDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGLDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
+		A2690EC1BE1569846879E040494012AB /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		A35CE7AAFC9C52FF5FFEB7CCD025B684 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		AA9262A30CAD610123A9C66B2FC43E63 /* MZDayPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZDayPicker.xcconfig; sourceTree = "<group>"; };
+		ADB10D041D11E514D51EA16C88C539E3 /* RMActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-umbrella.h"; sourceTree = "<group>"; };
+		B5F45D24FD378AEBE064F854B4619C0A /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMDateSelectionViewController.h; path = RMDateSelectionViewController/RMDateSelectionViewController.h; sourceTree = "<group>"; };
+		B83100EB9FA6C20F9B37D0C338F56DDE /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		BE204E9AFA49D77AC46C4495BF6C87BB /* IGLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGLDropDownMenu.m; path = IGLDropDownMenu/IGLDropDownMenu.m; sourceTree = "<group>"; };
+		C04B2FA8BBAA75D51368679D6FBE3418 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		C1914569C4BEFA1272A853597FE6FBD4 /* RMDateSelectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMDateSelectionViewController.xcconfig; sourceTree = "<group>"; };
+		C38329C00229341FC54BD6FA2D9AB05A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6BF944A8243F30F948B4016ED17F9CF /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
+		C7CE8CE8EE364D1A841F9645E00A7A16 /* Pods_Counsel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Counsel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F9F562366ED12CE770CE0FE890C4B2 /* IGLDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGLDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
+		CE710F920C2F785F248E0738AAB1A8BC /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		D16033FEA4164F7BDD41617A5F1930C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D1D17EB750B93BC4869030046C46A05B /* Flurry-iOS-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-umbrella.h"; sourceTree = "<group>"; };
+		D2563C805F83FE5EF4A2D39930979F4A /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FE60B88A1104361C314D3769192126 /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
+		D5562CA2C0CB42A418D625743CB70785 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		D8311F3B21CAD4A31C2E4E224E4704AD /* MZDayPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZDayPicker.m; path = MZDayPicker/MZDayPicker.m; sourceTree = "<group>"; };
+		D86419BDB76BF6C2B121DF4C31C86264 /* Pods-Counsel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Counsel-umbrella.h"; sourceTree = "<group>"; };
+		DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC435863E2E5E18BD9F3314A2DDB36FF /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		DCEC5C7D781A1FE463A4B9151306D666 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		DDDB23068E50C8149FE17D6895BB8404 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		DE34EE6E76F2B4493D5240B47A7A4432 /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flurry_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE80412CDB6ABD90A21C7597A0034624 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		E056A59AE32CDB0B7E884C6760DBFA9F /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E0EAA26574A249E5B6B27501420905 /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMDateSelectionViewController.m; path = RMDateSelectionViewController/RMDateSelectionViewController.m; sourceTree = "<group>"; };
+		E104F0FEBBEFCF092411425558D44779 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		E1CAD7A5BF883934735D72D565D0DB6E /* RMDateSelectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-umbrella.h"; sourceTree = "<group>"; };
+		E5343AE829E0B0E6FE3800E35F38B458 /* MZDayPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZDayPicker.h; path = MZDayPicker/MZDayPicker.h; sourceTree = "<group>"; };
+		E70F4940FFBACB39851D2BB4E51C4982 /* RMDateSelectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMDateSelectionViewController-dummy.m"; sourceTree = "<group>"; };
+		E74C9168E21E6CB39FBBFA717EB88069 /* Pods-Counsel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Counsel.modulemap"; sourceTree = "<group>"; };
+		EA7323551E32982DB4A546561B2E9884 /* Flurry-iOS-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Flurry-iOS-SDK.modulemap"; sourceTree = "<group>"; };
+		F0F0C07961E2FD55C3095AE1C147498F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91D21B1B1554B3654BC4C731F27450D /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
+		FC49363ECC382CB24318125C8272EB87 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		FDEFDE30A7EBE3CFE3E16295779DE6EE /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352CE036B49D002B558C1181327CD519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43690E28D5BD8C8ED356BDC0E758B82 /* Foundation.framework in Frameworks */,
+				7AC43F806C73AE8933C8F122D822C490 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367F835E61454B4753348F5BF3F782C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE7EA80B7347E90432D004A8B2A821F /* CoreGraphics.framework in Frameworks */,
+				17EF6B11283FF491142E4A0C6695A6CA /* Foundation.framework in Frameworks */,
+				88EA74482C440596B4ECBB38C9A8A799 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501C41E653ABD91FB40EC9CB898AACF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE70C3A5E94C5B0535E4A3F456495EC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EAAC83D5BD11A9B9447D40BC781878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7850D2361B3F0A74E83D0E7451B9730 /* Foundation.framework in Frameworks */,
+				A5DE50F56CB287DC42056F7EEDF378C4 /* RMActionController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC5774B60B0D0501BEA29B990615FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE70DC6FBD7A013DB18E5B5371F231F /* Foundation.framework in Frameworks */,
+				A0787562AD3801561E84DA948994FA15 /* Security.framework in Frameworks */,
+				688123264A2372A997A8E932A1E36A76 /* SystemConfiguration.framework in Frameworks */,
+				BA075FF1A8B9CC412C5C7D635D663686 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA73434FA0481803FEBEC9456880DD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0F5034CBCBBC1514D3FE59CBE55D86 /* Foundation.framework in Frameworks */,
+				D69025DC29F7A3F6AB9BBF58A7201F26 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ACF462732769C360FD9BCC28869185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35CE7AAFC9C52FF5FFEB7CCD025B684 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		129EBBB01F3EF328B57FA4C15DDBEC9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA7323551E32982DB4A546561B2E9884 /* Flurry-iOS-SDK.modulemap */,
+				5C9DCA245001B25198DFEBD69545EFFD /* Flurry-iOS-SDK.xcconfig */,
+				5F6FC3165CB9DA0B44B5BA437EC6A62D /* Flurry-iOS-SDK-dummy.m */,
+				0B3BE84FCE37F910808B58DAD9062256 /* Flurry-iOS-SDK-prefix.pch */,
+				D1D17EB750B93BC4869030046C46A05B /* Flurry-iOS-SDK-umbrella.h */,
+				22B042D616158A5C4FF8438BBA288F4A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		13E3890F5022BDF840E1A505E6FBEA9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85773D5876B15E15F7EEE7D26C34228F /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A169B1FC9FAAFC154C49EE193E96B6D /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				AF3359195397401E55A215B342DF3CB6 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		1B207C6D1D96E4A613845D5395DFFC6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5562CA2C0CB42A418D625743CB70785 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E997AEF9185A403556A7C305101B36E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2563C805F83FE5EF4A2D39930979F4A /* RMActionController.framework */,
+				BDDC5CC0905D054AA99EAAA2F541047E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		416085856AE4ECB5B5D96F31822D421F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0255DFDFC29E65D93B7351075C3D687A /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		529CECF87D5603B3E4F70C66B1D82905 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				65DCA4CD0520321C5BCA3598D1A0A92B /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		56AE14D17915DF9120C5FE23BC4C53F9 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				59DB8CF839CBFBF0CEC61B1D1B261975 /* FABAttributes.h */,
+				058B3C4C7BC08EA6671CDA1FC7C9BD94 /* Fabric.h */,
+				FD90B5A6309A049A7F9B8524FBA24A01 /* Frameworks */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		65DCA4CD0520321C5BCA3598D1A0A92B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51EC49CF540E5C37214403EFC617F651 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EB86B6863944DCD63C156D98D447CEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D036B488103D15612DDDC0AA1A638 /* Crashlytics */,
+				56AE14D17915DF9120C5FE23BC4C53F9 /* Fabric */,
+				A0BA44650806F1FFC2F718596E4524AC /* Firebase */,
+				AEBACE10942B6A9CE19998464C8D258B /* FirebaseAnalytics */,
+				87D22248A24B1CBA781D520A204B49A2 /* FirebaseCore */,
+				1A169B1FC9FAAFC154C49EE193E96B6D /* FirebaseDatabase */,
+				EE8F100EFBB46C5ED1F5DA284E379B1B /* FirebaseInstanceID */,
+				A4B3D9E07847DE4DBA7586809B60D287 /* Flurry-iOS-SDK */,
+				ABAE437CE5F57039C8267B08591AE783 /* GoogleInterchangeUtilities */,
+				529CECF87D5603B3E4F70C66B1D82905 /* GoogleSymbolUtilities */,
+				D8F33E2504E1B7DDCC0CF3194D251B42 /* GoogleUtilities */,
+				AB60E03891AF57A8BD4775B6D7EB1918 /* IGLDropDownMenu */,
+				7EBC265F85DD3F231F2659299D8FC5D9 /* MZDayPicker */,
+				8BE5E52E06B26D969D5380860DB51B2E /* RMActionController */,
+				AE25F45DA0CDCD968E299995524C9950 /* RMDateSelectionViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3E997AEF9185A403556A7C305101B36E /* Frameworks */,
+				6EB86B6863944DCD63C156D98D447CEB /* Pods */,
+				CD80F738CFA8C1C1D9079E712B771A61 /* Products */,
+				A32A86DF30C8D01C766696DCB1CC6234 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBC265F85DD3F231F2659299D8FC5D9 /* MZDayPicker */ = {
+			isa = PBXGroup;
+			children = (
+				329D1B4C472D26079F3293B3ECB32C37 /* MZDay.h */,
+				57DD2A365FCC84510EC7FBF2A2069E35 /* MZDay.m */,
+				E5343AE829E0B0E6FE3800E35F38B458 /* MZDayPicker.h */,
+				D8311F3B21CAD4A31C2E4E224E4704AD /* MZDayPicker.m */,
+				6947C710D4D7D07D3127717C53E41129 /* MZDayPickerCell.h */,
+				71610910C2436A84BD61307CAEE07838 /* MZDayPickerCell.m */,
+				EA770E116EA2D4C48DE9FB91AC156F32 /* Support Files */,
+			);
+			path = MZDayPicker;
+			sourceTree = "<group>";
+		};
+		87D22248A24B1CBA781D520A204B49A2 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				13E3890F5022BDF840E1A505E6FBEA9C /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		8BE5E52E06B26D969D5380860DB51B2E /* RMActionController */ = {
+			isa = PBXGroup;
+			children = (
+				F91D21B1B1554B3654BC4C731F27450D /* RMActionController.h */,
+				40EE6F037393AA3E1BC07C7C6553F3FC /* RMActionController.m */,
+				9607CDE950FD0CE6FADE7C1724C546C7 /* Support Files */,
+			);
+			path = RMActionController;
+			sourceTree = "<group>";
+		};
+		8FA7F3C920951CA69B7AA7DD9FBFE2CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F2F71EDEA1727B19A14ECFA3ED754 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		923FCDC7A1120E3004DAD761AC42B4D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB1B62E2BDB4F6CC4678A81C74F5 /* Info.plist */,
+				903245EC29848C4E69AF7FB8FCAC585F /* RMDateSelectionViewController.modulemap */,
+				C1914569C4BEFA1272A853597FE6FBD4 /* RMDateSelectionViewController.xcconfig */,
+				E70F4940FFBACB39851D2BB4E51C4982 /* RMDateSelectionViewController-dummy.m */,
+				5D794010EF57B8EB5987CABAE9297073 /* RMDateSelectionViewController-prefix.pch */,
+				E1CAD7A5BF883934735D72D565D0DB6E /* RMDateSelectionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMDateSelectionViewController";
+			sourceTree = "<group>";
+		};
+		9607CDE950FD0CE6FADE7C1724C546C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				292C7B905837C762CC651A8A76F729A9 /* Info.plist */,
+				55C6BD13B1EE110C18C28ACEF78BE4FC /* RMActionController.modulemap */,
+				C6BF944A8243F30F948B4016ED17F9CF /* RMActionController.xcconfig */,
+				FDEFDE30A7EBE3CFE3E16295779DE6EE /* RMActionController-dummy.m */,
+				D2FE60B88A1104361C314D3769192126 /* RMActionController-prefix.pch */,
+				ADB10D041D11E514D51EA16C88C539E3 /* RMActionController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMActionController";
+			sourceTree = "<group>";
+		};
+		9CA2057EC3BEBD9C380B03DCC979C947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83100EB9FA6C20F9B37D0C338F56DDE /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0BA44650806F1FFC2F718596E4524AC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8FA7F3C920951CA69B7AA7DD9FBFE2CE /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		A32A86DF30C8D01C766696DCB1CC6234 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1BC5D3E411E8A1EA2E8B3B0C46201FA /* Pods-Counsel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4B3D9E07847DE4DBA7586809B60D287 /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA98E64C6DB992F523B7055198A215 /* FlurrySDK */,
+				129EBBB01F3EF328B57FA4C15DDBEC9B /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		A54CCF92D3424B54B4D9EAFD5B232691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB23068E50C8149FE17D6895BB8404 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB60E03891AF57A8BD4775B6D7EB1918 /* IGLDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8BD112FC2E9DE7C27E03FAD9FF227B27 /* IGLDropDownItem.h */,
+				192417F499FD89BC8644235B3A0F66D6 /* IGLDropDownItem.m */,
+				0AC5971B85BF9A74DCE86C31F593F6B7 /* IGLDropDownMenu.h */,
+				BE204E9AFA49D77AC46C4495BF6C87BB /* IGLDropDownMenu.m */,
+				DF214C273CE6486EB933DFF98F792E52 /* Support Files */,
+			);
+			path = IGLDropDownMenu;
+			sourceTree = "<group>";
+		};
+		ABAE437CE5F57039C8267B08591AE783 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCF92D3424B54B4D9EAFD5B232691 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		AE25F45DA0CDCD968E299995524C9950 /* RMDateSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5F45D24FD378AEBE064F854B4619C0A /* RMDateSelectionViewController.h */,
+				E0E0EAA26574A249E5B6B27501420905 /* RMDateSelectionViewController.m */,
+				923FCDC7A1120E3004DAD761AC42B4D1 /* Support Files */,
+			);
+			path = RMDateSelectionViewController;
+			sourceTree = "<group>";
+		};
+		AEBACE10942B6A9CE19998464C8D258B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				416085856AE4ECB5B5D96F31822D421F /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		AF3359195397401E55A215B342DF3CB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				325E4188C06A2FF3A2B741382C31C836 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6FD2A5254387023836E4F6DED04A3A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6219595CFC263EDBFAF4B974B1CC03BB /* libFlurry_7.6.6.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDDC5CC0905D054AA99EAAA2F541047E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C746FBCDEDBE93E1606B5BF52E0DCFC /* CoreGraphics.framework */,
+				DA81AD4190AF5EBE4EF25A555E9E03B8 /* Foundation.framework */,
+				82EA67FA5A26E354651C50EFA07D14E8 /* QuartzCore.framework */,
+				DCEC5C7D781A1FE463A4B9151306D666 /* Security.framework */,
+				D16033FEA4164F7BDD41617A5F1930C0 /* SystemConfiguration.framework */,
+				C38329C00229341FC54BD6FA2D9AB05A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD80F738CFA8C1C1D9079E712B771A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE34EE6E76F2B4493D5240B47A7A4432 /* Flurry_iOS_SDK.framework */,
+				2B29C8884E692E56EA846A23ED173A25 /* IGLDropDownMenu.framework */,
+				5BB94CCE78F34AA423EB774C6F1A18DD /* MZDayPicker.framework */,
+				C7CE8CE8EE364D1A841F9645E00A7A16 /* Pods_Counsel.framework */,
+				E056A59AE32CDB0B7E884C6760DBFA9F /* RMActionController.framework */,
+				0FFF8BF917B7E46985AC09204D1B4ABA /* RMDateSelectionViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F33E2504E1B7DDCC0CF3194D251B42 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2057EC3BEBD9C380B03DCC979C947 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		DB1D036B488103D15612DDDC0AA1A638 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				4775025E1A02E2F75A78A6849FF6FFD9 /* ANSCompatibility.h */,
+				CE710F920C2F785F248E0738AAB1A8BC /* Answers.h */,
+				DE80412CDB6ABD90A21C7597A0034624 /* CLSAttributes.h */,
+				E104F0FEBBEFCF092411425558D44779 /* CLSLogging.h */,
+				5A6D3AC96E9E07E76D28A3832CA4F6D4 /* CLSReport.h */,
+				7427B7E8C3C93B0DCEB2542D7CD3532D /* CLSStackFrame.h */,
+				A2690EC1BE1569846879E040494012AB /* Crashlytics.h */,
+				00ACF462732769C360FD9BCC28869185 /* Frameworks */,
+			);
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		DF214C273CE6486EB933DFF98F792E52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8EEE7BDF9B09331FBE841202AB408D /* IGLDropDownMenu.modulemap */,
+				72AABE4F264C6E32684EC30DCB6CDB8D /* IGLDropDownMenu.xcconfig */,
+				521CD47BA7C3DD11F5DABD206C25C558 /* IGLDropDownMenu-dummy.m */,
+				9D339E6D2F77178C152939231E0F400F /* IGLDropDownMenu-prefix.pch */,
+				C8F9F562366ED12CE770CE0FE890C4B2 /* IGLDropDownMenu-umbrella.h */,
+				77638DCF31F2D83954CD3F1FAD054660 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGLDropDownMenu";
+			sourceTree = "<group>";
+		};
+		EA770E116EA2D4C48DE9FB91AC156F32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D42634BEBB95EBF5A60C033B504A81F /* Info.plist */,
+				2172F6277791EFF05F122CA0A81E0CAD /* MZDayPicker.modulemap */,
+				AA9262A30CAD610123A9C66B2FC43E63 /* MZDayPicker.xcconfig */,
+				210B58E470E4460372C25FDB0F8F9913 /* MZDayPicker-dummy.m */,
+				7DC8508EBDC891ECBCC27E9D3A985240 /* MZDayPicker-prefix.pch */,
+				95175D219761F6483156599A979B3177 /* MZDayPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZDayPicker";
+			sourceTree = "<group>";
+		};
+		EDCA98E64C6DB992F523B7055198A215 /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				DC435863E2E5E18BD9F3314A2DDB36FF /* Flurry.h */,
+				1C5E91F4F35754603AC049B8F12D5B76 /* FlurryEmpty.m */,
+				B6FD2A5254387023836E4F6DED04A3A0 /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		EE8F100EFBB46C5ED1F5DA284E379B1B /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				FC49363ECC382CB24318125C8272EB87 /* FIRInstanceID.h */,
+				1B207C6D1D96E4A613845D5395DFFC6E /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		F1BC5D3E411E8A1EA2E8B3B0C46201FA /* Pods-Counsel */ = {
+			isa = PBXGroup;
+			children = (
+				F0F0C07961E2FD55C3095AE1C147498F /* Info.plist */,
+				E74C9168E21E6CB39FBBFA717EB88069 /* Pods-Counsel.modulemap */,
+				8E7A285F934D4BA6C1F95A00313E832F /* Pods-Counsel-acknowledgements.markdown */,
+				690EADEDB7084F951023678E7D9D19D9 /* Pods-Counsel-acknowledgements.plist */,
+				52192B68525C8F8DB533CA8B4FD4956A /* Pods-Counsel-dummy.m */,
+				1C036CDBF8239333AF05758E12D8BD60 /* Pods-Counsel-frameworks.sh */,
+				7F8104E99D9202745336793FF909B9D3 /* Pods-Counsel-resources.sh */,
+				D86419BDB76BF6C2B121DF4C31C86264 /* Pods-Counsel-umbrella.h */,
+				7A96DC47F8AF653767A435BC999E3B9E /* Pods-Counsel.debug.xcconfig */,
+				1F4A74C7B5A6839C5FF5FFD3E23CF2D4 /* Pods-Counsel.release.xcconfig */,
+			);
+			name = "Pods-Counsel";
+			path = "Target Support Files/Pods-Counsel";
+			sourceTree = "<group>";
+		};
+		FD90B5A6309A049A7F9B8524FBA24A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C04B2FA8BBAA75D51368679D6FBE3418 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1224E2B890076AC2F6981F3D3C9112BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F13A5313AD40A1142917BB06A34591 /* MZDay.h in Headers */,
+				DA482B41F08BCC62329BD4F0E62B0EA6 /* MZDayPicker-umbrella.h in Headers */,
+				6A05E28EFEA31E4D8F3F0B637B575132 /* MZDayPicker.h in Headers */,
+				ED05D914CCD39E32AEF263030F441702 /* MZDayPickerCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1358053D1595B38B042177F6CD38B28D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EE7A3D9CB508311E854666750D681D /* Flurry-iOS-SDK-umbrella.h in Headers */,
+				DA00C77303310FAF46CD8CF816712E6B /* Flurry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50195938E1F181ABA414DC93645828A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F144FD1554BECCE14CE8464AE2FB349F /* RMDateSelectionViewController-umbrella.h in Headers */,
+				E7115F8573F8881CE26603076B246F57 /* RMDateSelectionViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE5CA929C00ACCF844AF0DB35C9D16A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F068D59AB3A8B48DF1947A952D5A298 /* IGLDropDownItem.h in Headers */,
+				4B8202738DF04DA596BBB2342C06EA5B /* IGLDropDownMenu-umbrella.h in Headers */,
+				6E52DF947B848513910A1D5D56F01027 /* IGLDropDownMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D91A4B10C3B7451A4E5DDAB46305FC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C104C5443D5DDD40F7D91CC081BA81 /* RMActionController-umbrella.h in Headers */,
+				7E2D76A7F8728B60C65B414B9636FF70 /* RMActionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB234814BA4CFFEE90AD4747D0824A03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF578646D29F130F2356D1A47D57630 /* Pods-Counsel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10012608256619B918DD9CFCD92E69BC /* RMDateSelectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A31FC3F68BDA098306C38DBA7BA8092 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */;
+			buildPhases = (
+				B86A50AAC3E848C42A6CFA58F2050F90 /* Sources */,
+				C0EAAC83D5BD11A9B9447D40BC781878 /* Frameworks */,
+				50195938E1F181ABA414DC93645828A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DEE3C68B0F9AB5FA66880D54172A86 /* PBXTargetDependency */,
+			);
+			name = RMDateSelectionViewController;
+			productName = RMDateSelectionViewController;
+			productReference = 0FFF8BF917B7E46985AC09204D1B4ABA /* RMDateSelectionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28EE4E7B1E8EBFF6D7E71B0E475ACB91 /* Pods-Counsel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C730FE3B7BCD770E2E2FC49F498CF7C9 /* Build configuration list for PBXNativeTarget "Pods-Counsel" */;
+			buildPhases = (
+				4A1D17A402D17F9F5B8A3946F690D53D /* Sources */,
+				501C41E653ABD91FB40EC9CB898AACF9 /* Frameworks */,
+				AB234814BA4CFFEE90AD4747D0824A03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B702D228389CD7228E1AFA5CA476724 /* PBXTargetDependency */,
+				B3B14E6CB504F82B6458E2E67017334F /* PBXTargetDependency */,
+				2CBA348D01DF8BA34A7B49F5A82B3056 /* PBXTargetDependency */,
+				7AD32EEEF1D51B5CB0B2E5E284DD7531 /* PBXTargetDependency */,
+				F79B4E391C7D2FB717001ED7CA9F3F02 /* PBXTargetDependency */,
+			);
+			name = "Pods-Counsel";
+			productName = "Pods-Counsel";
+			productReference = C7CE8CE8EE364D1A841F9645E00A7A16 /* Pods_Counsel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A1EF937A2807AE3794247568B1C8497 /* RMActionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C739314F7545FAE5C85390AAB15EF97 /* Build configuration list for PBXNativeTarget "RMActionController" */;
+			buildPhases = (
+				0846DC9518994BE750C60D5B07D3CA34 /* Sources */,
+				367F835E61454B4753348F5BF3F782C5 /* Frameworks */,
+				7D91A4B10C3B7451A4E5DDAB46305FC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMActionController;
+			productName = RMActionController;
+			productReference = E056A59AE32CDB0B7E884C6760DBFA9F /* RMActionController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D38700903AE3E9C8224AE34BD3B2DC6 /* IGLDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD11BE46F279134F35997A7780A531BA /* Build configuration list for PBXNativeTarget "IGLDropDownMenu" */;
+			buildPhases = (
+				5EDB4F2D34BFA2D0107693021CFC8114 /* Sources */,
+				FA73434FA0481803FEBEC9456880DD57 /* Frameworks */,
+				5CE5CA929C00ACCF844AF0DB35C9D16A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGLDropDownMenu;
+			productName = IGLDropDownMenu;
+			productReference = 2B29C8884E692E56EA846A23ED173A25 /* IGLDropDownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63032474C4AB56D648B39982530DFD55 /* Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E783AC727DAC0C8FD7AF7D837D2600DC /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
+			buildPhases = (
+				58EC9F9B82427FB080AEED170CBDFC84 /* Sources */,
+				DDC5774B60B0D0501BEA29B990615FC0 /* Frameworks */,
+				1358053D1595B38B042177F6CD38B28D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK";
+			productReference = DE34EE6E76F2B4493D5240B47A7A4432 /* Flurry_iOS_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B959BAFF7EA1E2090E63F2F810390095 /* MZDayPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52C966E6EC3F82B1BA5434E09B2C42E /* Build configuration list for PBXNativeTarget "MZDayPicker" */;
+			buildPhases = (
+				EAF24A5C352F219EED066D9CE69C0642 /* Sources */,
+				352CE036B49D002B558C1181327CD519 /* Frameworks */,
+				1224E2B890076AC2F6981F3D3C9112BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZDayPicker;
+			productName = MZDayPicker;
+			productReference = 5BB94CCE78F34AA423EB774C6F1A18DD /* MZDayPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CD80F738CFA8C1C1D9079E712B771A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63032474C4AB56D648B39982530DFD55 /* Flurry-iOS-SDK */,
+				5D38700903AE3E9C8224AE34BD3B2DC6 /* IGLDropDownMenu */,
+				B959BAFF7EA1E2090E63F2F810390095 /* MZDayPicker */,
+				28EE4E7B1E8EBFF6D7E71B0E475ACB91 /* Pods-Counsel */,
+				4A1EF937A2807AE3794247568B1C8497 /* RMActionController */,
+				10012608256619B918DD9CFCD92E69BC /* RMDateSelectionViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0846DC9518994BE750C60D5B07D3CA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B341D3CA5E39CBC425C3F02DD894586D /* RMActionController-dummy.m in Sources */,
+				492884CFF4025EA26FD76E3467132B1D /* RMActionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1D17A402D17F9F5B8A3946F690D53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8178CD94DBB7201552960F7255D34921 /* Pods-Counsel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EC9F9B82427FB080AEED170CBDFC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E053C819E11D80615F98689AF7AEA4E7 /* Flurry-iOS-SDK-dummy.m in Sources */,
+				EB06035B1A2B1AED9B3531F89BC2999E /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB4F2D34BFA2D0107693021CFC8114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C63DAD099DD1F653B71AE03C0720AB3 /* IGLDropDownItem.m in Sources */,
+				F4F40FA5A473271E12127E0DF2A63881 /* IGLDropDownMenu-dummy.m in Sources */,
+				11DE4F2986BD9AED729A57E4159A2F66 /* IGLDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86A50AAC3E848C42A6CFA58F2050F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE77CA73FAF6310EC063D6334D7EEE7 /* RMDateSelectionViewController-dummy.m in Sources */,
+				74A06F86BF411A3467BDAFD2195CD323 /* RMDateSelectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF24A5C352F219EED066D9CE69C0642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D21F9462C9B91F99C360DE02A7AF900 /* MZDay.m in Sources */,
+				1CF48C106D94AA3487A71EC47ED42E13 /* MZDayPicker-dummy.m in Sources */,
+				71C28E7C5C5EA0AEB8EBA82E3B26BBED /* MZDayPicker.m in Sources */,
+				7D8C56AE73395EBE65258F3B381A6EB3 /* MZDayPickerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DEE3C68B0F9AB5FA66880D54172A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = 4A1EF937A2807AE3794247568B1C8497 /* RMActionController */;
+			targetProxy = A47002754C8FCC86688E2E6C146E4A27 /* PBXContainerItemProxy */;
+		};
+		2CBA348D01DF8BA34A7B49F5A82B3056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZDayPicker;
+			target = B959BAFF7EA1E2090E63F2F810390095 /* MZDayPicker */;
+			targetProxy = 06F20D5F105791D6811BAF3684DBA738 /* PBXContainerItemProxy */;
+		};
+		5B702D228389CD7228E1AFA5CA476724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK";
+			target = 63032474C4AB56D648B39982530DFD55 /* Flurry-iOS-SDK */;
+			targetProxy = 2148FAEDE77CFAAA23525DF6F1C53B57 /* PBXContainerItemProxy */;
+		};
+		7AD32EEEF1D51B5CB0B2E5E284DD7531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = 4A1EF937A2807AE3794247568B1C8497 /* RMActionController */;
+			targetProxy = 0D7B26CA4EA91FECDC93C12AEBFDE87A /* PBXContainerItemProxy */;
+		};
+		B3B14E6CB504F82B6458E2E67017334F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGLDropDownMenu;
+			target = 5D38700903AE3E9C8224AE34BD3B2DC6 /* IGLDropDownMenu */;
+			targetProxy = CF821A536A436AAE84BABA36014C30DB /* PBXContainerItemProxy */;
+		};
+		F79B4E391C7D2FB717001ED7CA9F3F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMDateSelectionViewController;
+			target = 10012608256619B918DD9CFCD92E69BC /* RMDateSelectionViewController */;
+			targetProxy = 47862A758D9242956E22179ECE16EDE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		024E36327BE6169B1BA8298E23527414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BF944A8243F30F948B4016ED17F9CF /* RMActionController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35AAC27FC9CDC763B76294964456C32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1914569C4BEFA1272A853597FE6FBD4 /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D542B51AA6181C904D1425D7497BE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9DCA245001B25198DFEBD69545EFFD /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		73F273CD92643180BC8D1BB9F7FF36F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9DCA245001B25198DFEBD69545EFFD /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8672379ECB5C30B3ECD276235297BFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AABE4F264C6E32684EC30DCB6CDB8D /* IGLDropDownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGLDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IGLDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93368427CDD0655B36F508BC899A6509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4A74C7B5A6839C5FF5FFD3E23CF2D4 /* Pods-Counsel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Counsel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Counsel/Pods-Counsel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Counsel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A30DE84F24CD64667ECB7539E73E26E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A96DC47F8AF653767A435BC999E3B9E /* Pods-Counsel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Counsel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Counsel/Pods-Counsel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Counsel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9234C58132BEF357D465BBCF0042CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AABE4F264C6E32684EC30DCB6CDB8D /* IGLDropDownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGLDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGLDropDownMenu/IGLDropDownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IGLDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2EBB630EA1DCB87617D2A9E3B162D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1914569C4BEFA1272A853597FE6FBD4 /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAC8F98505BE78210C092F83236E8B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9262A30CAD610123A9C66B2FC43E63 /* MZDayPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZDayPicker/MZDayPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZDayPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZDayPicker/MZDayPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MZDayPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E62A3E1CD58B9230DA8054963723CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9262A30CAD610123A9C66B2FC43E63 /* MZDayPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZDayPicker/MZDayPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZDayPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZDayPicker/MZDayPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MZDayPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F76FA2B6400F05C9467D30DFF96B1A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BF944A8243F30F948B4016ED17F9CF /* RMActionController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A31FC3F68BDA098306C38DBA7BA8092 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AAC27FC9CDC763B76294964456C32A /* Debug */,
+				C2EBB630EA1DCB87617D2A9E3B162D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C739314F7545FAE5C85390AAB15EF97 /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76FA2B6400F05C9467D30DFF96B1A4C /* Debug */,
+				024E36327BE6169B1BA8298E23527414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52C966E6EC3F82B1BA5434E09B2C42E /* Build configuration list for PBXNativeTarget "MZDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC8F98505BE78210C092F83236E8B9D /* Debug */,
+				E62A3E1CD58B9230DA8054963723CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C730FE3B7BCD770E2E2FC49F498CF7C9 /* Build configuration list for PBXNativeTarget "Pods-Counsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30DE84F24CD64667ECB7539E73E26E3 /* Debug */,
+				93368427CDD0655B36F508BC899A6509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD11BE46F279134F35997A7780A531BA /* Build configuration list for PBXNativeTarget "IGLDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9234C58132BEF357D465BBCF0042CD /* Debug */,
+				8672379ECB5C30B3ECD276235297BFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E783AC727DAC0C8FD7AF7D837D2600DC /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F273CD92643180BC8D1BB9F7FF36F0 /* Debug */,
+				3D542B51AA6181C904D1425D7497BE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
