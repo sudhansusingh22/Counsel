@@ -13,3 +13,5 @@ Corporate attorneys frequently utilize CounselLink for calendaring, tasks, and j
 matters that they are working for—and are often away from their office or away from a computer (in court, on the
 road, etc.). These attorneys need an easy way to get information and make simple updates via mobile device and
 avoid the burden of a full-blown web site.
+
+[EventBrite](https://www.eventbrite.com/e/rise-to-code-lexisnexis-hackathon-tickets-27938943131)
